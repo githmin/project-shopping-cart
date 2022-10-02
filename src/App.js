@@ -24,15 +24,17 @@ function App() {
 
   const [CartItems , setCartItems] = useState([
     { id : 1 , Name :"MEG Z790 ACE" , Price: 599 , url:MB},
+    { id : 2 , Name :"GeForce RTX® 4090 GAMING X" , Price: 1500, url:GPU },
+    { id : 3 , Name :"Titan GT77" , Price: 2000 ,url:LAP }
   ]);
   
   return (
     <div>
     <Nav CartItems={CartItems}/>
     <Routes>
-      <Route path="/" element={<Index />} />
+      <Route path="/project-shopping-cart" element={<Index />} />
       <Route path="/shop" element={<Shop items={items} CartItems={CartItems} setCartItems={setCartItems} />} />
-      <Route path="/cart" element={<Cart CartItems={CartItems} setCartItems={setCartItems} />} />
+      <Route path="/cart" element={<Cart CartItems={CartItems}/>} />
     </Routes>
 
     </div>
