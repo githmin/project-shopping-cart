@@ -34,7 +34,7 @@ function App() {
     <Routes>
       <Route path="/project-shopping-cart" element={<Index />} />
       <Route path="/shop" element={<Shop items={items} CartItems={CartItems} setCartItems={setCartItems} />} />
-      <Route path="/cart" element={<Cart CartItems={CartItems}/>} />
+      <Route path="/cart" element={<Cart CartItems={CartItems} setCartItems={setCartItems}/>} />
     </Routes>
 
     </div>
