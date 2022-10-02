@@ -1,0 +1,22 @@
+.cartCard{
+    display: flex;
+    align-items: center;
+    border: 1px black solid;
+    gap: 10px;
+}
+
+.CartImg{
+    max-width: 100px;
+}
+
+.mainCheck{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.totalDiv{
+    border: 1px black solid;
+    padding: 1rem 11rem;
+    border-radius: 10px;
+}

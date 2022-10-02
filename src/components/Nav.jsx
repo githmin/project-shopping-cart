@@ -10,7 +10,7 @@ function Nav() {
           <Link className='LinkClass' to='/'>Home</Link>
           <Link className='LinkClass' to='/shop'>Shop</Link>
         </div>
-        <button className='cart'></button>
+        <Link className='LinkClass Cart' to='/cart'>Cart</Link>
     </div>
   )
 }
