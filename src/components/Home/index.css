@@ -29,6 +29,8 @@
     padding: 10px 30px;
     box-shadow: 10px 10px 20px; 
     border-color: transparent;
+    text-decoration: none;
+    color: black;
 }
 
 .invert{

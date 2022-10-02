@@ -8,7 +8,7 @@ function Nav() {
         <Link className='LinkClass brand' to='/'>.Brand</Link>
         <div className='linkDiv'>
           <Link className='LinkClass' to='/'>Home</Link>
-          <Link className='LinkClass' to='/'>Shop</Link>
+          <Link className='LinkClass' to='/shop'>Shop</Link>
         </div>
         <button className='cart'></button>
     </div>
