@@ -30,11 +30,11 @@ function App() {
   
   return (
     <div>
-    <Nav/>
+    <Nav CartItems={CartItems}/>
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/shop" element={<Shop items={items} CartItems={CartItems} setCartItems={setCartItems} />} />
-      <Route path="/cart" element={<Cart CartItems={CartItems}/>} />
+      <Route path="/cart" element={<Cart CartItems={CartItems} setCartItems={setCartItems} />} />
     </Routes>
 
     </div>

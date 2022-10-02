@@ -7,7 +7,7 @@ function Shop(props) {
   const cartitems = props.CartItems;
   const setcartitems = props.setCartItems;
 
-  const updateCart =(product , props)=>{
+  const updateCart =(product)=>{
     console.log("adding to Cart");
     setcartitems([...cartitems, product]);
     console.log(cartitems);
