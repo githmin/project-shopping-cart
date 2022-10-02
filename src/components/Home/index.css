@@ -1,0 +1,40 @@
+.indexMain{
+    background-image: url("https://asset.msi.com/resize/image/global/product/product_1664265428e8f09ab5ae6f9518bc9f8216288395f7.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png");
+    height: 80vh;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:repeat(4 , 1fr) ;
+}
+
+.btnGrid{
+    grid-row: 4/2;
+    grid-column: 4/6;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.meg{
+    max-width: 300px;
+}
+
+.mainBtn{
+    max-width: 200px;
+    padding: 10px 30px;
+    box-shadow: 10px 10px 20px; 
+    border-color: transparent;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.model{
+    max-width: 500px;
+}

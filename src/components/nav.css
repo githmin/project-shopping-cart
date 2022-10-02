@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.mainNav{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: transparent;
+    color: black;
+    align-items: center;
+}
+
+.linkDiv{
+    display: flex;
+    gap: 5rem;
+}
+
+.LinkClass{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.brand{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.cart{
+    background-image: url('./assets/shopping-cart.png');
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    border-color: transparent;
+    background-color: transparent;
+}
