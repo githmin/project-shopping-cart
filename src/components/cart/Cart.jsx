@@ -22,16 +22,17 @@ function Cart(props) {
                         <button onClick={()=> removeFromCart(product)}>Remove</button>
                         <img className='CartImg' src={product.url} alt={product.Name}/>
                         <div className='itemName'>{product.Name}</div>
-                        
                     </div>
                 )}
         </div>
   
 
         <div className="totalDiv">
-            <p>Total Price : $ {sum}</p>
-            <p>Total Items : {props.CartItems.length}</p>
-            <button>CheckOut</button>
+            <div className='totalDivMiddle'>
+              <p>Total Price : $ {sum}</p>
+              <p>Total Items : {props.CartItems.length}</p>
+            </div>
+            <div className='checkoutBtn'>CheckOut</div>
         </div>
 
 
